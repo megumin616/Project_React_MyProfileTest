@@ -1,0 +1,38 @@
+.container-header {
+    width: auto;
+    height: 100vh;
+    background: url("../../assets/images/background-view.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    /* z-index: 0; */
+}
+.header-text {
+    margin-left: 7rem;
+}
+.header-text-box01 {
+    color: white;
+}
+.header-text-box01 h1 {
+    font-weight: 700;
+}
+.header-text-box01 span {
+    font-size: 60px;
+}
+.header-text button {
+    margin-top: 1rem;
+    background: rgb(198, 230, 255);
+    border: none;
+    border-radius: 25px;
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.header-text button:hover {
+    color: white;
+    background: rgb(118, 192, 249);
+}
