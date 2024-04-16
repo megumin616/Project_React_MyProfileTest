@@ -1,0 +1,13 @@
+.container-home {
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    /* text-align: center; */
+}
+.box-1 {
+    margin: 7rem 4rem; /* เปลี่ยน margin เพื่อให้มีระยะห่างของกล่องเท่ากัน */
+    flex: 1; /* ให้กล่องขยายขนาดเต็มพื้นที่ที่เหลืออยู่ใน flex container */
+}
+.text-box1, .text-box2, .text-box3 {
+    max-width: 25rem;
+}
