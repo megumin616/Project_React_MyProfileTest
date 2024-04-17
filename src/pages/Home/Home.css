@@ -80,3 +80,16 @@
     margin-top: 1rem;
     color: gray;
 }
+
+
+/* zone media  */
+
+@media (max-width: 1080px) {
+    .pagehome-icon i{
+        margin: 2rem 0.8rem;
+        font-size: 15px;
+    }
+    .container-home {
+        height: auto;
+    }
+}

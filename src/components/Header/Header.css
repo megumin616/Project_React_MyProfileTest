@@ -36,3 +36,13 @@
     color: white;
     background: rgb(118, 192, 249);
 }
+
+
+
+/* zone media  */
+
+@media (max-width: 1080px) {
+    .container-header {
+        height: 70vh;
+    }
+}
