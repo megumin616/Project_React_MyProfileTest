@@ -41,8 +41,16 @@
 
 /* zone media  */
 
-@media (max-width: 1080px) {
+@media (max-width: 400px) {
     .container-header {
-        height: 70vh;
+        height: 75vh;
+        /* margin: ; */
+    }
+    .header-text h1 {
+        font-size: 20px;
+    }
+    .header-text span {
+        font-size: 23px;
+        font-weight: 700;
     }
 }
