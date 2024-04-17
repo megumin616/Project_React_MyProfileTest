@@ -11,3 +11,72 @@
 .text-box1, .text-box2, .text-box3 {
     max-width: 25rem;
 }
+
+
+/* box1  */
+.p1 {
+    color: red;
+    font-weight: 800;
+    font-size: 30px;
+}
+.head-box1 {
+    margin-bottom: 2rem;
+}
+.text-box1 span {
+    margin: 4rem 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+.text-box1 .p1-1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: gray;
+}
+.box-1 button {
+    width: 8rem;
+    height: 2.5rem;
+    border: 2px solid red;
+    color: red;
+    background: white;
+    transition: all 0.4s ease;
+}
+.box-1 button:hover {
+    background: red;
+    color: white;
+    border: 2px solid rgb(110, 110, 110);
+}
+
+
+/* box2  */
+
+.text-box2 h2 span {
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+.text-box2 h2 {
+    font-weight: 700;
+}
+.pagehome-icon i{
+    margin: 2rem 1rem;
+    font-size: 20px;
+    color: rgb(255, 78, 78);
+}
+
+
+/* box3  */
+
+.text-box3 .ui-box3{
+    display: flex;
+    margin: 0.5rem 0;
+    align-items: center;
+}
+.ui-box3 i {
+    font-size: 35px;
+    color: rgb(255, 79, 79);
+    margin-right: 0.6rem;
+}
+.ui-box3 p {
+    margin-top: 1rem;
+    color: gray;
+}
