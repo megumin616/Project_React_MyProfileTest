@@ -84,12 +84,11 @@
 
 /* zone media  */
 
-@media (max-width: 1080px) {
-    .pagehome-icon i{
-        margin: 2rem 0.8rem;
-        font-size: 15px;
-    }
+@media (max-width: 390px) {
     .container-home {
-        height: auto;
+        display: block;
+    }
+    .box-1 {
+        margin: 2rem 1rem;
     }
 }
